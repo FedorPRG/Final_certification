@@ -38,4 +38,10 @@ fed@Ubuntu23:~/Final_certification$ sudo apt-get install mysql-server
 
 fed@Ubuntu23:~/Final_certification$ sudo apt-get install mysql-client
 
+## Задание №4
 
+fed@Ubuntu23:~/Final_certification$ sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+
+fed@Ubuntu23:~/Final_certification$ sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+
+fed@Ubuntu23:~/Final_certification$ sudo dpkg --purge  mysql-apt-config mysql-client-8.0  mysql-client-core-8.0  mysql-common  mysql-server-8.0  mysql-server-core-8.0
