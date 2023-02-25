@@ -15,3 +15,15 @@ fed@Ubuntu23:~/Final_certification$ cat merge_file
 лошади, верблюды, ослы
 
 fed@Ubuntu23:~/Final_certification$ mv merge_file human_friends
+
+## Задание №2
+
+fed@Ubuntu23:~/Final_certification$ mkdir direct
+
+fed@Ubuntu23:~/Final_certification$ mv human_friends ./direct/
+
+fed@Ubuntu23:~/Final_certification$ cd direct/
+
+fed@Ubuntu23:~/Final_certification/direct$ ls
+
+human_friends
