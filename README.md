@@ -48,4 +48,4 @@ fed@Ubuntu23:~/Final_certification$ sudo dpkg --purge  mysql-apt-config mysql-cl
 
 ## Задание №5
 
-Выполнена
+Выполнено
