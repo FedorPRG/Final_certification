@@ -27,3 +27,15 @@ fed@Ubuntu23:~/Final_certification$ cd direct/
 fed@Ubuntu23:~/Final_certification/direct$ ls
 
 human_friends
+
+## Задание №3
+
+fed@Ubuntu23:~/Final_certification/direct$ sudo apt update
+
+fed@Ubuntu23:~/Final_certification/direct$ sudo apt list mysql-server mysql-client
+
+fed@Ubuntu23:~/Final_certification$ sudo apt-get install mysql-server
+
+fed@Ubuntu23:~/Final_certification$ sudo apt-get install mysql-client
+
+
