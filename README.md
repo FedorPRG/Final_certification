@@ -191,6 +191,23 @@ mysql> SELECT * FROM Donkeys;
 |    2 | Ram  | run      | 2023-01-25 |
 +------+------+----------+------------+
 
+## Задание №10
 
+mysql> DROP TABLE Camels;
 
+mysql> SELECT * FROM Camels;
+ERROR 1146 (42S02): Table 'Human_friends.Camels' doesn't exist
+
+ysql> SELECT * FROM Horses
+    -> UNION ALL SELECT * FROM Donkeys;
++------+------+----------+------------+
+| id   | Name | Commands | birthday   |
++------+------+----------+------------+
+|    2 | Kim  | stand    | 2019-01-25 |
+|    2 | Kom  | go       | 2020-01-25 |
+|    2 | Kam  | run      | 2023-01-25 |
+|    2 | Rim  | stand    | 2019-01-25 |
+|    2 | Rom  | go       | 2020-01-25 |
+|    2 | Ram  | run      | 2023-01-25 |
++------+------+----------+------------+
 
