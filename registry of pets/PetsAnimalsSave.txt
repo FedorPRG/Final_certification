@@ -1,0 +1,6 @@
+1 Dim Dogs stand,sit,voice
+2 Dom Dogs sit,voice
+3 Cim Cats stand
+4 Com Cats sit,voice
+5 Him Hamsters voice
+6 Hom Hamsters not_commands
